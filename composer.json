@@ -1,6 +1,6 @@
 {
     "name": "shaozeming/aliyun-sts",
-    "description": "基于阿里云openapi系列中STS最新版本的SDK composer package ",
+    "description": "基于阿里云openapi系列接口中STS最新版本的SDK进行封装的composer package",
     "require-dev": {
         "phpunit/phpunit": "^6.3",
         "mockery/mockery": "^0.9.9"
