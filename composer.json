@@ -23,6 +23,6 @@
         }
     },
     "require": {
-        "shaozeming/aliyun-core": "d"
+        "shaozeming/aliyun-core": "^1.0"
     }
 }
