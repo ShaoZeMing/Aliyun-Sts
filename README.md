@@ -10,10 +10,10 @@
 
 ## 同胞兄弟
 
-- [ShaoZeMing/aliyun-vod](https://github.com/ShaoZeMing/Aliyun-Vod)
-- [ShaoZeMing/aliyun-sts](https://github.com/ShaoZeMing/Aliyun-Sts)
-- [ShaoZeMing/aliyun-core](https://github.com/ShaoZeMing/Aliyun-Core)
-- [ShaoZeMing/aliyun-oss](https://github.com/ShaoZeMing/Aliyun-Oss)
+- [ShaoZeMing/aliyun-vod](https://github.com/ShaoZeMing/Aliyun-Vod) 阿里云点播
+- [ShaoZeMing/aliyun-sts](https://github.com/ShaoZeMing/Aliyun-Sts) 阿里云STS
+- [ShaoZeMing/aliyun-core](https://github.com/ShaoZeMing/Aliyun-Core) 阿里云接口Core核心包
+- [ShaoZeMing/aliyun-oss](https://github.com/ShaoZeMing/Aliyun-Oss) 阿里云OSS
 - 待续...
 
 ## Installing
@@ -70,7 +70,7 @@ use ShaoZeMing\AliSTS\Services\STSService;
         try {
             $config = include 'you_path/config.php';
             $sts = new STSService($config);
-            $result =  $this->sts->getToken(); // 获取播放权限参数
+            $result =  $sts->getToken(); // 获取播放权限参数
             print_r($result);
             return $result;
         } catch (\Exception $e) {
